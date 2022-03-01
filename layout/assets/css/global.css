@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.all {
+    position: relative;
+    width: 800px;
+    height: 580px;
+    margin: 0px auto;
+    background-color: grey;
+    font-family: 'Lato', sans-serif;
+}
+
+.left, .right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.right {
+    text-align: right;
+    margin-right: 0px;
+}
+
+.left .top {
+    position: relative;
+    width: 100%;
+    height: 35%;
+}
+
+.left .bot {
+    position: relative;
+    width: 100%;
+    height: 65%;
+}
+
+.right .top {
+    position: relative;
+    width: 100%;
+    height: 40%;
+}
+
+.right .bot {
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.isi {
+    width: 95%;
+    padding-left: 5%;
+}
+
+table.route_table {
+    border: 1px solid #999;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.route_table th {
+    border: 1px solid #999;
+    padding: 5px;
+    text-align: left;
+    background-color: #666;
+    color: white;
+    vertical-align: top;
+}
+
+table.route_table td {
+    border: 1px solid #666;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.left .top h2 {
+    padding: 10px;
+    background-color: #666;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.left .bot h5 {
+    padding: 10px 0px;
+}
+
+.right .top h1 {
+    font-size: 130px;
+}
+
+.right .top h2 {
+    padding-right: 0px;
+    background-color: white;
+    color: black;
+}
+
+.right .top h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-right: 20px;
+    font-size: 15px;
+}
