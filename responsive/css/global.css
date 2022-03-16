@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 100vh;
+        background-color: powderblue;
+        z-index: 2;
+    }
+
+    main {
+        position: relative;
+        width: calc(100vw - 200px);
+        min-height: 100vh;
+        height: 2000px;
+        margin-left:200px;
+    }
+
+    .middle {
+        position: relative;
+        width: 700px;
+        height: 680px;
+        float: left;
+        background-color: violet;
+    }
