@@ -21,6 +21,7 @@
 .right {
     text-align: right;
     margin-right: 0px;
+    float: right;
 }
 
 .left .top {
@@ -38,13 +39,13 @@
 .right .top {
     position: relative;
     width: 100%;
-    height: 40%;
+    height: 45%;
 }
 
 .right .bot {
     position: relative;
     width: 100%;
-    height: 60%;
+    height: 55%;
 }
 
 .isi {
@@ -80,22 +81,81 @@ table.route_table td {
     margin-bottom: 5px;
 }
 
-.left .bot h5 {
-    padding: 10px 0px;
+.left .bot hr {
+    height: 2px;
+    background-color: green;
+    border: none;
 }
 
 .right .top h1 {
-    font-size: 130px;
+    font-size: 125px;
 }
 
 .right .top h2 {
+    padding-top: 10px;
     padding-right: 0px;
-    background-color: white;
     color: black;
 }
 
 .right .top h4 {
     font-family: 'Roboto Condensed', sans-serif;
-    padding-right: 20px;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 30px;
     font-size: 15px;
+    text-align: left;
+    background-color: rgb(217, 201, 248);
+    border-radius: 10px;
+    float: right;
+}
+
+.right .bot h3 {
+    padding-left: 15%;
+    padding-bottom: 5px;
+    float: left;
+}
+
+h5 {
+    font-weight: lighter;
+}
+
+.mangatzpat {
+    padding-left: 6%;
+    padding-bottom: 10px;
+}
+
+.right .bot hr {
+    height: 2px; 
+    background-color: rgb(120, 168, 231); 
+    border: none;
+    margin-left: 15%;
+    width: 85%;
+}
+
+.kiri {
+    text-align: left;
+    padding: 4px;
+    padding-left: 15%;
+    width: 15%;
+    position: relative;
+    float: left;
+}
+
+.tengah {
+    text-align: left;
+    position: relative;
+    float: left;
+    padding-top: 6px;
+    padding-left: 5px;
+    width: 55%;
+}
+
+.kanan {
+    padding-top: 10px;
+}
+
+.kanan h4 {
+    text-align: right;
+    padding-bottom: 40px;
+    position: relative;
 }
